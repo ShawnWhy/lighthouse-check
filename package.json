@@ -1,0 +1,25 @@
+{
+  "name": "lighthouse-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnWhy/lighthouse-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnWhy/lighthouse-check/issues"
+  },
+  "homepage": "https://github.com/ShawnWhy/lighthouse-check#readme",
+  "dependencies": {
+    "chrome-launcher": "^0.15.1",
+    "csv-stringify": "^6.2.3",
+    "csv-writer": "^1.6.0",
+    "lighthouse": "^9.6.8"
+  }
+}
