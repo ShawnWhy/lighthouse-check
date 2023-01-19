@@ -65,13 +65,13 @@ Desktop_Accessibility: 'desktop_Accessibility',
 // urls in an array
 // var array = fs.readFileSync("URLs.csv")
 //                 .toString().split("\n");
-var array = require('./url_medstar')
+var array = require('./url_medstar copy_uat')
 
 // Declare a resultant array to store 
 // the generated scores and initialize
 // it with headings
 let result = [];
-fs.appendFileSync("rowstuff.csv", " URL, Mobile_Performance, Mobile_Accessibility, Mobile_Best_Practices, Mobile_SEO, Desktop_Performance, Desktop_Accessibility, Desktop_Best_Practices, Desktop_SEO"
+fs.appendFileSync("uatresults.csv", " URL, Mobile_Performance, Mobile_Accessibility, Mobile_Best_Practices, Mobile_SEO, Desktop_Performance, Desktop_Accessibility, Desktop_Best_Practices, Desktop_SEO"
 );
   
 // The async await is used to ensure 
